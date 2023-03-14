@@ -1,0 +1,44 @@
+.puzzleContainer {
+  border: 1px solid #000;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+.puzzleItem {
+  border: 1px solid #000;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.puzzleItem img {
+  width: 200px;
+  object-fit: fill;
+}
+.mainImage img {
+  max-width: 300px;
+  margin-right: 50px;
+}
+.pageContainer {
+  display: flex;
+}
+.primary-heading {
+  font-size: 20px;
+  margin: 0 0 14px 0;
+  font-family: monospace;
+  color: #7f7f77;
+  font-weight: 700;
+}
+h4.secondary-heading {
+  font-size: 17px;
+  margin: 13px 0 14px 0;
+  font-family: monospace;
+  color: #7f7f77;
+  font-weight: 500;
+}
+.secondary-heading span{
+    font-weight: 700;
+}
